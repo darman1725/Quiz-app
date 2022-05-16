@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    background-color: #FBD6D2;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("background2.jpeg");
+    background-position: center;
+}
+
+.container{
+    background-color: rgb(252, 244, 237) !important
+}
+
+.question{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.container{
+    margin-top: 200px;
+    border-radius: 50px !important;
+}
+
+.correct{
+    background-color: #8BDB81;
+}
+
+.a:hover{
+    background: #BFFFF0;
+}
+
+.wrong{
+    background-color: #FF5C8D;
+}
+.wrong:hover{
+    background-color: #FF5C8D;
+}
+
+.dis{
+    pointer-events: none;
+}
+
+.correct:hover{
+    background-color: #8BDB81;
+}
+
+.start-container{
+    background-color: rgb(252, 244, 237);
+    display: flex;
+    height: 300px;
+    width: 550px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.start-text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.start-button{
+    margin-top: 50px;
+}
+
+.end-container{
+    background-color: rgb(252, 244, 237);
+    display: flex;
+    height: 300px;
+    width: 550px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.end-text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.end-button{
+    margin-top: 50px;
+}
